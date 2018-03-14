@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	pb "../consignment-service/proto/consignment"
+	pb "github.com/microservices-in-golang/consignment-service/proto/consignment"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
